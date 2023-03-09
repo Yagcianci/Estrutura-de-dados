@@ -99,7 +99,7 @@ int ex4(void)
 
       if (linha > TAM_MAX || coluna > TAM_MAX)
         printf("As dimensões são maiores que o tamanho maximo permitido\n");
-    }while (linha > 100 && coluna > 100));
+    }while (linha > 100 && coluna > 100);
 
   //preenchendo a matriz com valores
   printf("Insira os valores da matriz: ");
